@@ -15,7 +15,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo $ {{ secrets.password }}
-          echo $ {{ vars.username }}
+          echo $ {{secrets.password}}
+          echo $ {{vars.username}}
       - name: Create a file
         run: echo $home
